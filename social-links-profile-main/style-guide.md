@@ -13,14 +13,14 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Green: hsl(75, 94%, 57%)
+- Green: hsl(75, 94%, 57%) Done
 
 ### Neutral
-
-- White: hsl(0, 0%, 100%)
-- Grey: hsl(0, 0%, 20%)
-- Dark Grey: hsl(0, 0%, 12%)
-- Off Black: hsl(0, 0%, 8%)
+ 
+- White: hsl(0, 0%, 100%) Done
+- Grey: hsl(0, 0%, 20%) Done
+- Dark Grey: hsl(0, 0%, 12%) Done
+- Off Black: hsl(0, 0%, 8%) Done
 
 ## Typography
 
@@ -30,7 +30,7 @@ The designs were created to the following widths:
 
 ### Font
 
-- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Family: [Inter](https://fonts.google.com/specimen/Inter) Done
 - Weights: 400, 600, 700
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.

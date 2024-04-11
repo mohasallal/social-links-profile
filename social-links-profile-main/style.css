@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --WhiteColor: hsl(0, 0%, 100%);
+    --GreyColor: hsl(0, 0%, 20%);
+    --DarkGreyColor: hsl(0, 0%, 12%);
+    --OffBlackColor: hsl(0, 0%, 8%);
+    --GreenishYellowColor: hsl(75, 94%, 57%);
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--OffBlackColor);
+    width: 100dvw;
+    height: 100dvh;
+    color: var(--WhiteColor);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container{
+    width: 400px;
+    text-align: center;
+    background-color: var(--DarkGreyColor);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.PFP{
+    width: 150px;
+    border-radius: 50%;
+}
+
+h2{
+    color: var(--GreenishYellowColor);
+}
+
+.Lnks {
+    display: inline-block;
+    border-radius: 10px;
+    margin: 8px;
+    background-color: var(--GreyColor);
+    width: 100%;
+}
+
+.Lnks a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--WhiteColor);
+    cursor: pointer;
+    border-radius: inherit;
+    padding: 20px;
+}
+
+.Lnks:hover, .Lnks:hover a{
+    background-color: var(--GreenishYellowColor);
+    color: var(--DarkGreyColor);
+}
+
+.attribution a{
+    text-decoration: none;
+    color: var(--GreenishYellowColor);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        height: 100%;
+        padding: 20px;
+        display: flex;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .container{
+        width: 80%;
+        margin: 15px;
+    }
+}
