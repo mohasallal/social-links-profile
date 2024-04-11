@@ -62,6 +62,8 @@ h2{
 .Lnks:hover, .Lnks:hover a{
     background-color: var(--GreenishYellowColor);
     color: var(--DarkGreyColor);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 
 .attribution a{
