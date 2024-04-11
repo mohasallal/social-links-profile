@@ -15,10 +15,10 @@ body{
     box-sizing: border-box;
     background-color: var(--OffBlackColor);
     width: 100dvw;
-    height: 100dvh;
+    height: 100svh;
     color: var(--WhiteColor);
-    display: grid;
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     text-align: center;
